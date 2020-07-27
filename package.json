@@ -1,0 +1,22 @@
+{
+  "name": "react-build-cache",
+  "version": "1.0.3",
+  "description": "it clean cache of reactjs build version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geeknection/react-build-cache.git"
+  },
+  "author": "Bruno Nascimento",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geeknection/react-build-cache/issues"
+  },
+  "homepage": "https://github.com/geeknection/react-build-cache#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
