@@ -2,11 +2,11 @@
 Clean reactjs cache in build version
 ## Getting started
 
-`npm install react-build-cache --save-dev`
+`npm install react-build-cache -g`
 
 ## Usage
 
-In your package file found scripts/build and rewrite to: react-scripts build && node_modules/react-build-cache
+After your generate build files just execute npm react-build-cache
 
 ## How its works
 When a new build is generated, reactjs to improve the process of generating a new build checks the project files and generates only those files that have been modified based on the previous build.
