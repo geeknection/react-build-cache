@@ -6,9 +6,9 @@ String.prototype.allReplace = function(obj) {
     return retStr;
 };
 const fs = require('fs');
-let contents = fs.readFileSync('./build/index.html').toString();
+let contents = fs.readFileSync(`${process.cwd()}/build/index.html`).toString();
 contents = contents.allReplace({'.js"': `.js?v=${new Date().getTime()}"`, '.css"': `.css?v=${new Date().getTime()}"`});
-fs.writeFile('./build/index.html', contents, function (err) {
+fs.writeFile(`${process.cwd()}/build/index.html`, contents, function (err) {
     if (err) throw err;
     console.log('It\'s saved!');
 });

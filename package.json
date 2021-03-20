@@ -1,6 +1,6 @@
 {
   "name": "react-build-cache",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "it clean cache of reactjs build version",
   "main": "index.js",
   "bin": {
@@ -23,8 +23,8 @@
     "fs": "0.0.1-security"
   },
   "keywords": [
-      "reactjs clean cache",
-      "reactjs clean build cache",
-      "react clean cache build version"
+    "reactjs clean cache",
+    "reactjs clean build cache",
+    "react clean cache build version"
   ]
 }
