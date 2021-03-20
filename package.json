@@ -1,6 +1,6 @@
 {
   "name": "react-build-cache",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "it clean cache of reactjs build version",
   "main": "index.js",
   "bin": {
@@ -19,9 +19,7 @@
     "url": "https://github.com/geeknection/react-build-cache/issues"
   },
   "homepage": "https://github.com/geeknection/react-build-cache#readme",
-  "dependencies": {
-    "fs": "^0.0.1-security"
-  },
+  "dependencies": {},
   "keywords": [
     "reactjs clean cache",
     "reactjs clean build cache",
