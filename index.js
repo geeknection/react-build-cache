@@ -5,7 +5,7 @@ String.prototype.allReplace = function(obj) {
     }
     return retStr;
 };
-const fs = require('fs-extra');
+const fs = require('fs');
 let contents = fs.readFileSync(`${process.cwd()}/build/index.html`).toString();
 contents = contents.allReplace({
     '.js"': `.js?v=${new Date().getTime()}"`,
